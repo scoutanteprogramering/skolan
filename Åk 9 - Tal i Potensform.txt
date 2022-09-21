@@ -1,0 +1,28 @@
+Välkommnen till Åk 9 - Tal i Potensform
+
+
+I denna filk kommer du att hitta elev sätt och lärar sätt hur man ska skriva koden på sidan: 16
+Lite info:
+Språk: Py
+Program för kod: https://replit.com/
+
+Kode i replit skriven av mig: https://replit.com/@scoutante112/GloriousCurlyAddin
+
+
+Elev sätt:
+
+bas = int(input("Skriv potenasens bas:"))
+exponent = int(input("Skriv in exponent:"))
+pontens = 1
+for x in range(0, exponent):
+pontens = pontens * bas
+print("potenasens värde är:", pontens)
+
+Lärar sätt:
+
+bas = int(input("Skriv potenasens bas:"))
+exponent = int(input("Skriv in exponent:"))
+pontes = 1
+for x in range(0, exponent):
+  pontes = pontes * bas
+  print(pontes)
